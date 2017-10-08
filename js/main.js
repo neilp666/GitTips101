@@ -5,8 +5,13 @@ var tipsList = [
 
   "To create a new branch, run the command: <span class='code'>git branch NEW-BRANCH-NAME</span>.",
 
-  "To checkout an existing branch, run the command: <span class='code'>git checkout</span>."
+  "To checkout an existing branch, run the command: <span class='code'>git checkout</span>.",
 
+  "Git won't let you delete a branch that you're currently on. You first need to checkout a different branch, then run the command: <span class='code'>git branch -d BRANCH-TO-DELETE</span>.",
+
+  "You can compare branches with the git diff command: <span class='code'>git diff FIRST-BRANCH..SECOND-BRANCH</span>.",
+
+  "If you forget how to use an option, or want to explore other functionality around the git branch command, run this command: <span class='code'>git help branch</span>."
 ];
 
 // Tip Limit counter
